@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.conatiner{
+    background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+     z-index: 1;
+     height: 721px;
+     
+     
+    
+}
+
+.container1{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+
+    
+     
+
+}
+   .text{
+       border: 3px solid black;
+       background-color: rgb(234 200 139);;
+       color: rgb(0, 0, 0);
+       border-radius: 12px;
+       outline: none;
+       margin-top: 16px;
+       margin-left: -515px;
+       font-size: 25px;
+       font-family: 'Times New Roman', Times, serif;
+       
+      
+      
+
+        }
+        ::placeholder {
+             color: rgb(12, 1, 1);
+            font-size: 25px;
+            font-family: 'Ubuntu', sans-serif;
+          
+        
+           
+           
+          }
+
+
+
+        #btn{
+            margin-top: 12px;
+            margin-left: -590px;
+            border: 2px solid black;
+            border-radius: 35px;
+            height: 39px;
+            width: 145px;
+            background-color:  color:rgb(239 189 246);
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 17px;
+
+        }
+          #btn:hover{
+              background-color: rgb(85, 79, 136);
+              color: #04061f;
+              cursor: pointer;
+             
+          }
+
+        .box{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* align-items: center; */
+            position: relative;
+            top: -20px;
+            margin-left: 1000px;
+            background-color: rgb(155 155 88);
+            width: 445px;
+            height: 300px;
+            border: 4px solid black;
+            border-radius: 45px;
+            outline: none;
+
+        }
+
+          .Adarsh{
+              color: white;
+               position: absolute;
+              top: 100px;
+              left: -642px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              text-align: center;
+
+              color: #82ec0e;;
+              
+              
+
+          }
+
+          .Adarsh h2{
+         margin-left: 140px;
+              
+          }
+
+        .box h1{
+            margin-top: 1px;
+            margin-left: 145px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+         .textinfo ul{
+             list-style: none;
+             
+             margin-left:15px ;
+         }
+
+         .textinfo ul li{
+             margin: 17px 9px;
+             font-family: 'Ubuntu', sans-serif;
+             
+         }
+
+         .display{
+             display: flex;
+             
+         }
+
+         .display span{
+             color:#2d0b5a;
+             font-weight: 700;
+             background: wheat;
+             padding: 2px 3px;
+             border-radius: 25px;
+             height: 25px;
+             width: 45px;
+             margin-top: 13px;
+             margin-left: 15px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+
+         }
+
+         .background{
+
+            background-color: rgba(0, 0,0, 0.7);
+            background-image: url('img2.jpg.jpg');
+            background-size: cover;
+            background-blend-mode: darken;
+            margin-top: 8px;
+            height: 44px;
+            width: 1530px;
+            z-index: 1;
+            
+         }
+
+         .foot{
+             text-align: center;
+             position: relative;
+             top: 12px;
+             color: blanchedalmond;
+            
+         }
+
+         
+         
+
+   
