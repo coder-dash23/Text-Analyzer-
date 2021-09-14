@@ -44,7 +44,7 @@ function findWord(text) {
 }
 
 function findsentences(text) {
-    const regex = /[\w|\][.?!](\s|$)/g;
+    const regex = /[\w|\)][.?!](\s|$)/g;
     let sencount = text.match(regex);
     return sencount ? sencount.length : 0;
 
